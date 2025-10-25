@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hasnain Ali — Brand Designer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Hasnain<span class="dot">.</span></a>
+
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1 class="hero-title">Hasnain Ali</h1>
+          <p class="hero-sub">Brand Designer &amp; Developer</p>
+
+          <p class="hero-desc">
+            I design brand identities and build clean, thoughtful web experiences.
+            Focused on clarity, craft and measurable results.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#work">See my work</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+
+          <ul class="hero-stats">
+            <li><strong>12</strong><span>Projects</span></li>
+            <li><strong>5</strong><span>Years</span></li>
+            <li><strong>+20</strong><span>Clients</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="portrait-wrap">
+            <img src="./images/Hasnain Ali pic.jpg"
+                 alt="Portrait of Hasnain Ali" />
+            <div class="portrait-accent"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>Design-led developer who crafts identities, web interfaces and product visuals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I combine brand strategy with hands-on product development — logo systems,
+              visual identities, and pixel-perfect front-end implementations.
+            </p>
+            <p>
+              I enjoy collaborating with founders and teams to simplify complex ideas and
+              turn them into elegant, memorable experiences.
+            </p>
+
+            <ul class="skills">
+              <li>Brand Identity</li>
+              <li>UI / UX Design</li>
+              <li>Front-end (HTML/CSS/JS)</li>
+              <li>Responsive Design</li>
+              <li>Back-end (NodeJs/ExpressJs/MongoDB)</li>
+            </ul>
+          </div>
+
+          <div class="about-card">
+            <div class="card">
+              <h3>Contact</h3>
+              <p>Email: <a href="mailto:hasnain0122@gmail.com">hasnain0122@gmail.com</a></p>
+              <p>Location: Pakistan</p>
+              <p>Available for freelance & full-time roles</p>
+              <a class="btn small" href="#contact">Say hello</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Selected Work</h2>
+          <p>A selection of brand and digital projects.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project">
+            <div class="project-media">
+              <img src="./images/Mumurse Brand Identity design 1-02.jpg"
+                   alt="Project image 1" />
+            </div>
+            <div class="project-body">
+              <h3>Mumurse — Brand Identity</h3>
+              <p>Packaging and identity for a consumer tech startup.</p>
+            </div>
+          </article>
+
+
+          <article class="project">
+            <div class="project-media">
+              <img src="./images/Mood beats.JPG"
+                   alt="Project image 2" />
+            </div>
+            <div class="project-body">
+              <h3>Mood Beats - Music Recommendation Web app</h3>
+              <p>Music Recommendation Web App that detects emotions and songs based on the emotions.</p>
+            </div>
+          </article>
+
+
+          <article class="project">
+            <div class="project-media">
+              <img src="./images/Namaz tracking app.JPG"
+                   alt="Project image 3" />
+            </div>
+            <div class="project-body">
+              <h3>Namaz Tracker App</h3>
+              <p>UI design and front-end implementation with accessible layout.</p>
+            </div>
+          </article>
+
+
+          <article class="project">
+            <div class="project-media">
+              <img src="./images/Fikra Brand Identity 2-01.png"
+                   alt="Project image 4" />
+            </div>
+            <div class="project-body">
+              <h3>Fikra — Agency Brand Identity</h3>
+              <p>Brand and website design for a social media marketing agency.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Want to work together or just say hi? Fill the form below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" action="mailto:hasnain0122@gmail.com" method="post" enctype="text/plain">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" required placeholder="Tell me about your project..."></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send Message</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+          </form>
+
+          <aside class="contact-aside">
+            <div class="contact-card">
+              <h3>Let's collaborate</h3>
+              <p>Prefer email? Reach me at <a href="mailto:hasnain0122@gmail.com">hasnain@example.com</a></p>
+              <ul class="social">
+                <li><a href="https://github.com/hasnain0122E" aria-label="Github">Github</a></li>
+                <li><a href="https://www.behance.net/hasnainali40" aria-label="Behance">Behance</a></li>
+                <li><a href="https://www.linkedin.com/in/hasnainali7867/" aria-label="LinkedIn">LinkedIn</a></li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2025</span> Hasnain Ali — Brand Designer & Developer. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+</html>
